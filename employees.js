@@ -1,21 +1,21 @@
 
 const employees = {
-  "C-301": {
+  "C-251": {
     name: "CHARLES C. CULAS",
-    position: "Administrative Aide IV",
-    department: "Mayor's Office",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=CHARLES+C.+CULAS&entry.1045781291=Administrative+Aide+IV&entry.1065046570=Mayor%27s+Office&entry.1166974658=C-301"
+    position: "WATCHMAN II",
+    department: "MO - Mayor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-251&entry.1045781291=CHARLES&entry.880133861=C.&entry.1414103043=CULAS&entry.1166974658=WATCHMAN%20II&entry.1320481221=MO%20-%20Mayor's%20Office"
   },
-  "C-302": {
+  "C-252": {
     name: "JOLLY ROY B. AMARAN",
-    position: "Administrative Aide IV",
-    department: "Mayor's Office",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=JOLLY+ROY+B.+AMARAN&entry.1045781291=Administrative+Aide+IV&entry.1065046570=Mayor%27s+Office&entry.1166974658=C-302"
+    position: "SEMS/MENRO-DESIGNATE",
+    department: "MO - Mayor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-252&entry.1045781291=JOLLY%20ROY&entry.880133861=B.&entry.1414103043=AMARAN&entry.1166974658=SEMS/MENRO-DESIGNATE&entry.1320481221=MO%20-%20Mayor's%20Office"
   },
-  "C-303": {
-    name: "EMILENE A. DAYRIT",
-    position: "Administrative Aide IV",
-    department: "Sangguniang Bayan Office",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=EMILENE+A.+DAYRIT&entry.1045781291=Administrative+Aide+IV&entry.1065046570=Sangguniang+Bayan+Office&entry.1166974658=C-303"
+  "C-287": {
+    name: "MIKO MA. F. ESTARIS",
+    position: "INFORMATION TECHNOLOGY OFFICER I",
+    department: "MO - Mayor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-287&entry.1045781291=MIKO%20MA.&entry.880133861=F.&entry.1414103043=ESTARIS&entry.1166974658=INFORMATION%20TECHNOLOGY%20OFFICER%20I&entry.1320481221=MO%20-%20Mayor's%20Office"
   }
 };
