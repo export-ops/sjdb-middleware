@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Secure QR Middleware</title>
+  <script src="config.js"></script>
+  <script src="employees.js"></script>
+</head>
+<body>
+  <h2>LGU QR Code Attendance</h2>
+  <div id="content">
+    <p>Loading...</p>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const empId = urlParams.get("emp_id");
+
+    fetch("https://api.ipify.org?format=json")
+      .then(response => response.json())
+      .then(data => {
+        const userIP = data.ip;
+        if (!allowedIPs.includes(userIP)) {
+          document.getElementById("content").innerHTML = "<h3 style='color:red;'>Unauthorized device. IP blocked.</h3>";
+          return;
+        }
+
+        if (!employees[empId]) {
+          document.getElementById("content").innerHTML = "<h3 style='color:red;'>Invalid or missing employee ID.</h3>";
+          return;
+        }
+
+        const codeInput = document.createElement("input");
+        codeInput.type = "password";
+        codeInput.placeholder = "Enter Event Code";
+        const button = document.createElement("button");
+        button.innerText = "Submit";
+        button.onclick = () => {
+          if (codeInput.value === allowedEventCode) {
+            window.location.href = employees[empId].form_url;
+          } else {
+            alert("Incorrect event code.");
+          }
+        };
+
+        const div = document.createElement("div");
+        div.appendChild(codeInput);
+        div.appendChild(button);
+        document.getElementById("content").innerHTML = "";
+        document.getElementById("content").appendChild(div);
+      })
+      .catch(err => {
+        document.getElementById("content").innerHTML = "<h3 style='color:red;'>Failed to validate IP.</h3>";
+      });
+  </script>
+</body>
+</html>
