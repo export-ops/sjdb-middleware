@@ -54,16 +54,23 @@
     }
   
     function initMiddleware(userIP = null) {
+      // 🔍 Debug logs
+      console.log("Your IP:", userIP);
+      console.log("Allowed IPs:", allowedIPs);
+
+      // ✅ Check if employee ID is valid
       if (!empId || !employees[empId]) {
         showError("Invalid or missing employee ID.");
         return;
       }
-  
+
+      // 🔐 IP Check (if enabled)
       if (useIPCheck && userIP && !allowedIPs.includes(userIP)) {
         showError("Unauthorized device. IP blocked.");
         return;
       }
-  
+
+      // ✅ Show event code form
       const emp = employees[empId];
       showEventCodeForm(emp);
     }
