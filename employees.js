@@ -1,5 +1,11 @@
 
 const employees = {
+  "C-XXX": {
+    name: "JUAN M. DELA CRUZ",
+    position: "ADMINISTRATOR",
+    department: "MGSO - Municipal General Services Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-XXX&entry.1045781291=JUAN&entry.880133861=M.&entry.1414103043=DELA%20CRUZ&entry.1166974658=ADMINISTRATOR&entry.1320481221=MGSO%20-%20Municipal%20General%20Services%20Office"
+  },
   "C-251": {
     name: "CHARLES C. CULAS",
     position: "WATCHMAN II",
