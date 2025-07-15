@@ -1,3 +1,3 @@
 
-const allowedIPs = ["10.206.60.133"];
+const allowedIPs = ["192.168.1.117"];
 const allowedEventCode = "L&D2025";
