@@ -221,6 +221,36 @@ const employees = {
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-285&entry.1045781291=YVES%20LYLE&entry.880133861=P.&entry.1414103043=DELA%20SERNA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Office"
   },
   /*Municipal Registrar's Office*/
+  "P-032": {
+    name: "MA. FE T. SALVANI",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (MUNICIPAL CIVIL REGISTRAR)",
+    department: "MCR - Municipal Civil Registrar's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-032&entry.1045781291=MA.%20FE&entry.880133861=T.&entry.1414103043=SALVANI&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%0A(MUNICIPAL%20CIVIL%20REGISTRAR)&entry.1320481221=MCR%20-%20Municipal%20Civil%20Registrar's%20Office"
+  },
+  "P-033": {
+    name: "MARY GRACE S. MONTECLARO",
+    position: "ASSISTANT REGISTRATION OFFICER",
+    department: "MCR - Municipal Civil Registrar's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-033&entry.1045781291=MARY%20GRACE&entry.880133861=S.&entry.1414103043=MONTECLARO&entry.1166974658=ASSISTANT%20REGISTRATION%20OFFICER&entry.1320481221=MCR%20-%20Municipal%20Civil%20Registrar's%20Office"
+  },
+  "P-034": {
+    name: "RAYZAN A. LAGUNDAY",
+    position: "ADMINISTRATIVE AIDE IV (CLERK II)",
+    department: "MCR - Municipal Civil Registrar's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-034&entry.1045781291=RAYZAN&entry.880133861=A.&entry.1414103043=LAGUNDAY&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(CLERK%20II)&entry.1320481221=MCR%20-%20Municipal%20Civil%20Registrar's%20Office"
+  },
+  "P-035": {
+    name: "SHYRELL Q. VILLAVERT",
+    position: "ADMINISTRATIVE AIDE IV (CLERK II)",
+    department: "MCR - Municipal Civil Registrar's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-035&entry.1045781291=SHYRELL&entry.880133861=Q.&entry.1414103043=VILLAVERT&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(CLERK%20II)&entry.1320481221=MCR%20-%20Municipal%20Civil%20Registrar's%20Office"
+  },
+  "C-262": {
+    name: "JENNIFER N. PATIÑO",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MCR - Municipal Civil Registrar's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-262&entry.1045781291=JENNIFER&entry.880133861=N.&entry.1414103043=PATI%C3%91O&entry.1166974658=ADMIN.%20AIDE%20IV&entry.1320481221=MCR%20-%20Municipal%20Civil%20Registrar's%20Office"
+  },
   "C-256": {
     name: "MARDY L. UNTALAN",
     position: "ADMINISTRATIVE AIDE IV (HUMAN RESOURCE MANAGEMENT AIDE)",
