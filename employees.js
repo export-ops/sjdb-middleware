@@ -1,11 +1,13 @@
 
 const employees = {
+  /*Sample Employee*/
   "C-XXX": {
     name: "JUAN M. DELA CRUZ",
     position: "ADMINISTRATOR",
     department: "MGSO - Municipal General Services Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-XXX&entry.1045781291=JUAN&entry.880133861=M.&entry.1414103043=DELA%20CRUZ&entry.1166974658=ADMINISTRATOR&entry.1320481221=MGSO%20-%20Municipal%20General%20Services%20Office"
   },
+  /*Mayor's Office*/
   "P-001": {
     name: "ATTY. PAUL JOSEPH N. UNTARAN",
     position: "MUNICIPAL MAYOR I",
@@ -78,6 +80,7 @@ const employees = {
     department: "MO - Mayor's Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-287&entry.1045781291=MIKO%20MA.&entry.880133861=F.&entry.1414103043=ESTARIS&entry.1166974658=INFORMATION%20TECHNOLOGY%20OFFICER%20I&entry.1320481221=MO%20-%20Mayor's%20Office"
   },
+  /*Sangguniang Bayan Office*/
   "P-002": {
     name: "CRIS JOHN P. BANUSING II",
     position: "MUNICIPAL VICE MAYOR I",
@@ -174,6 +177,50 @@ const employees = {
     department: "SBO - Sangguniang Bayan Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-253&entry.1045781291=EMILENE&entry.880133861=A.&entry.1414103043=DAYRIT&entry.1166974658=LOCAL%20LEGISLATIVE%20STAFF%20I&entry.1320481221=SBO%20-%20Sangguniang%20Bayan%20Office"
   },
+  /*Municipal Planning and Development Office*/
+  "P-026": {
+    name: "ENGR. JOSE O. MAGBANUA",
+    position: "MUN. GOV'T DEPARTMENT HEAD I (MUN. PLANNING AND DEV'T COORDINATOR)",
+    department: "MPDO - Municipal Planning and Development Offiice",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-026&entry.1045781291=ENGR.%20JOSE&entry.880133861=O.&entry.1414103043=MAGBANUA&entry.1166974658=MUN.%20GOV'T%20DEPARTMENT%20HEAD%20I%20(MUN.%20PLANNING%20AND%20DEV'T%20COORDINATOR)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+  },
+  "P-027": {
+    name: "ENGR. JESSIE O. SENIEL",
+    position: "DRAFTSMAN II",
+    department: "MPDO - Municipal Planning and Development Offiice",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-027&entry.1045781291=ENGR.%20JESSIE&entry.880133861=O.&entry.1414103043=SENIEL&entry.1166974658=PROJECT%20DEVELOPMENT%20OFFICER%20II&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+  },
+  "P-028": {
+    name: "FLORENCIO N. ARNAEZ JR.",
+    position: "PROJECT DEVELOPMENT OFFICER II",
+    department: "MPDO - Municipal Planning and Development Offiice",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-028&entry.1045781291=FLORENCIO&entry.880133861=N.&entry.1414103043=ARNAEZ%20JR.&entry.1166974658=DRAFTSMAN%20II&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+  },
+  "P-029": {
+    name: "FEB LEDEMAR S. NABOR",
+    position: "PROJECT DEVELOPMENT OFFICER II",
+    department: "MPDO - Municipal Planning and Development Offiice",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-029&entry.1045781291=FEB%20LEDEMAR&entry.880133861=S.&entry.1414103043=NABOR&entry.1166974658=ECONOMIC%20RESEARCHER&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+  },
+  "P-030": {
+    name: "ALVIN M. PECAOCO",
+    position: "ADMININISTRATIVE AIDE VI (DATA CONTROLLER I)",
+    department: "MPDO - Municipal Planning and Development Offiice",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-030&entry.1045781291=ALVIN&entry.880133861=M.&entry.1414103043=PECAOCO&entry.1166974658=ADMIN.%20AIDE%20VI%20(DATA%20CONTROLLER%20I)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+  },
+  "P-031": {
+    name: "KARL ERIC V. MOSCOSO",
+    position: "ADMINISTRATIVE ASSISTANT III (COMPUTER OPERATOR II)",
+    department: "MPDO - Municipal Planning and Development Offiice",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-031&entry.1045781291=KARL%20ERIC&entry.880133861=V.&entry.1414103043=MOSCOSO&entry.1166974658=ADMIN.%20ASSISTANT%20III%20(COMPUTER%20OPERATOR%20II)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+  },
+  "C-285": {
+    name: "YVES LYLE P. DELA SERNA",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MPDO - Municipal Planning and Development Offiice",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-285&entry.1045781291=YVES%20LYLE&entry.880133861=P.&entry.1414103043=DELA%20SERNA&entry.1166974658=ADMIN.%20AIDE%20IV&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+  },
+  /*Municipal Registrar's Office*/
   "C-256": {
     name: "MARDY L. UNTALAN",
     position: "ADMINISTRATIVE AIDE IV (HUMAN RESOURCE MANAGEMENT AIDE)",
