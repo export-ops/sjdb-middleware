@@ -182,7 +182,7 @@ const employees = {
     name: "ENGR. JOSE O. MAGBANUA",
     position: "MUN. GOV'T DEPARTMENT HEAD I (MUN. PLANNING AND DEV'T COORDINATOR)",
     department: "MPDO - Municipal Planning and Development Offiice",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-026&entry.1045781291=ENGR.%20JOSE&entry.880133861=O.&entry.1414103043=MAGBANUA&entry.1166974658=MUN.%20GOV'T%20DEPARTMENT%20HEAD%20I%20(MUN.%20PLANNING%20AND%20DEV'T%20COORDINATOR)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-026&entry.1045781291=ENGR.%20JOSE&entry.880133861=O.&entry.1414103043=MAGBANUA&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%20(MUNICIPAL%20PLANNING%20AND%20DEVELOPMENT%20COORDINATOR)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
   },
   "P-027": {
     name: "ENGR. JESSIE O. SENIEL",
@@ -206,19 +206,19 @@ const employees = {
     name: "ALVIN M. PECAOCO",
     position: "ADMININISTRATIVE AIDE VI (DATA CONTROLLER I)",
     department: "MPDO - Municipal Planning and Development Offiice",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-030&entry.1045781291=ALVIN&entry.880133861=M.&entry.1414103043=PECAOCO&entry.1166974658=ADMIN.%20AIDE%20VI%20(DATA%20CONTROLLER%20I)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-030&entry.1045781291=ALVIN&entry.880133861=M.&entry.1414103043=PECAOCO&entry.1166974658=ADMINISTRATIVE%20AIDE%20VI%20(DATA%20CONTROLLER%20I)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
   },
   "P-031": {
     name: "KARL ERIC V. MOSCOSO",
     position: "ADMINISTRATIVE ASSISTANT III (COMPUTER OPERATOR II)",
     department: "MPDO - Municipal Planning and Development Offiice",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-031&entry.1045781291=KARL%20ERIC&entry.880133861=V.&entry.1414103043=MOSCOSO&entry.1166974658=ADMIN.%20ASSISTANT%20III%20(COMPUTER%20OPERATOR%20II)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-031&entry.1045781291=KARL%20ERIC&entry.880133861=V.&entry.1414103043=MOSCOSO&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20III%20(COMPUTER%20OPERATOR%20II)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
   },
   "C-285": {
     name: "YVES LYLE P. DELA SERNA",
     position: "ADMINISTRATIVE AIDE IV",
     department: "MPDO - Municipal Planning and Development Offiice",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-285&entry.1045781291=YVES%20LYLE&entry.880133861=P.&entry.1414103043=DELA%20SERNA&entry.1166974658=ADMIN.%20AIDE%20IV&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-285&entry.1045781291=YVES%20LYLE&entry.880133861=P.&entry.1414103043=DELA%20SERNA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Offiice"
   },
   /*Municipal Registrar's Office*/
   "C-256": {
