@@ -211,7 +211,7 @@ const employees = {
   "P-031": {
     name: "KARL ERIC V. MOSCOSO",
     position: "ADMINISTRATIVE ASSISTANT III (COMPUTER OPERATOR II)",
-    department: "MPDO - Municipal Planning and Development Offiice",
+    department: "MPDO - Municipal Planning and Development Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-031&entry.1045781291=KARL%20ERIC&entry.880133861=V.&entry.1414103043=MOSCOSO&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20III%20(COMPUTER%20OPERATOR%20II)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Office"
   },
   "C-285": {
