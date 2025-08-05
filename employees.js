@@ -180,7 +180,7 @@ const employees = {
   /*Municipal Planning and Development Office*/
   "P-026": {
     name: "ENGR. JOSE O. MAGBANUA",
-    position: "MUN. GOV'T DEPARTMENT HEAD I (MUN. PLANNING AND DEV'T COORDINATOR)",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (MUNICIPAL PLANNING AND DEVELOPMENT COORDINATOR)",
     department: "MPDO - Municipal Planning and Development Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-026&entry.1045781291=ENGR.%20JOSE&entry.880133861=O.&entry.1414103043=MAGBANUA&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%20(MUNICIPAL%20PLANNING%20AND%20DEVELOPMENT%20COORDINATOR)&entry.1320481221=MPDO%20-%20Municipal%20Planning%20and%20Development%20Office"
   },
