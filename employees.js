@@ -270,6 +270,73 @@ const employees = {
     department: "MBO - Municipal Budget Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-259&entry.1045781291=ANNAVELLE&entry.880133861=S.&entry.1414103043=HI%C3%91OSA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MBO%20-%20Municipal%20Budget%20Office"
   },
+  /*Municipal Accounting Office*/
+  "P-061": {
+    name: "KRISTINE DIANE C. ALOJIPAN, CPA",
+    position: "ADMINISTRATIVE OFFICER IV (ACCOUNTANT II) *ACTING MUNICIPAL ACCOUNTANT*",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-061&entry.1045781291=KRISTINE%20DIANE&entry.880133861=C.&entry.1414103043=ALOJIPAN,%20CPA&entry.1166974658=ADMINISTRATIVE%20OFFICER%20IV%20(ACCOUNTANT%20II)%0A*ACTING%20MUNICIPAL%20ACCOUNTANT*&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "P-062": {
+    name: "GABRIEL D. DELA SERNA",
+    position: "ADMINISTRATIVE ASSISTANT II (BOOKKEEPER I)",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-062&entry.1045781291=GABRIEL&entry.880133861=D.&entry.1414103043=DELA%20SERNA&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20II%20(BOOKKEEPER%20I)&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "P-063": {
+    name: "GLENDA C. VARGAS",
+    position: "ADMINISTRATIVE ASSISTANT II (BOOKKEEPER I)",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-063&entry.1045781291=GLENDA&entry.880133861=C.&entry.1414103043=VARGAS&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20II%20(BOOKKEEPER%20I)&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "P-064": {
+    name: "ROSALYN S. CAPADOCIA",
+    position: "ADMINISTRATIVE AIDE VI (ACCOUNTING CLERK II)",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-064&entry.1045781291=ROSALYN&entry.880133861=S.&entry.1414103043=CAPADOCIA&entry.1166974658=ADMINISTRATIVE%20AIDE%20VI%20(ACCOUNTING%20CLERK%20II)&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "P-065": {
+    name: "RITA C. MACATANA",
+    position: "ADMINISTRATIVE AIDE VI (ACCOUNTING CLERK II)",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-065&entry.1045781291=RITA&entry.880133861=C.&entry.1414103043=MACATANA&entry.1166974658=ADMINISTRATIVE%20AIDE%20VI%20(ACCOUNTING%20CLERK%20II)&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "P-066": {
+    name: "MA. LOURDES G. REGONDON, MPA",
+    position: "ADMINISTRATIVE AIDE IV (ACCOUNTING CLERK I)",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-066&entry.1045781291=MA.%20LOURDES&entry.880133861=G.&entry.1414103043=REGONDON,%20MPA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(ACCOUNTING%20CLERK%20I)&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "P-067": {
+    name: "MONICA LANIE B. DELOS SANTOS",
+    position: "ADMINISTRATIVE AIDE IV (ACCOUNTING CLERK I)",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-067&entry.1045781291=MONICA%20LANIE&entry.880133861=B.&entry.1414103043=DELOS%20SANTOS&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(ACCOUNTING%20CLERK%20I)&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "P-068": {
+    name: "SHERYL C. FLORES, MPA",
+    position: "ADMINISTRATIVE OFFICER IV (MANAGEMENT AND AUDIT ANALYST II)",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-068&entry.1045781291=SHERYL&entry.880133861=CHONG&entry.1414103043=FLORES,%20MPA&entry.1166974658=ADMINISTRATIVE%20OFFICER%20IV%20(MANAGEMENT%20AND%20AUDIT%20ANALYST%20II)&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "C-271": {
+    name: "RONIE A. GALEDO",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-271&entry.1045781291=RONIE&entry.880133861=A.&entry.1414103043=GALEDO&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "C-272": {
+    name: "JOSETTA T. HIÑOSA",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-272&entry.1045781291=JOSETTA&entry.880133861=T.&entry.1414103043=HI%C3%91OSA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
+  "C-273": {
+    name: "JOYCE G. VIESCA",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MACCO - Municipal Accounting Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-273&entry.1045781291=JOYCE&entry.880133861=G.&entry.1414103043=VIESCA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
+  },
   "C-256": {
     name: "MARDY L. UNTALAN",
     position: "ADMINISTRATIVE AIDE IV (HUMAN RESOURCE MANAGEMENT AIDE)",
