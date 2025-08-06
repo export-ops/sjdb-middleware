@@ -118,6 +118,13 @@
       console.log("Your IP:", userIP);
       console.log("Allowed IPs:", allowedIPs);
 
+      fetch("https://api.ipify.org?format=json")
+        .then(response => response.json())
+        .then(data => {
+          console.log("Your Public IP is:", data.ip);
+        });
+
+
       // ✅ Check if employee ID is valid
       if (!empId || !employees[empId]) {
         showError("Invalid or missing employee ID.");
