@@ -251,6 +251,25 @@ const employees = {
     department: "MCR - Municipal Civil Registrar's Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-262&entry.1045781291=JENNIFER&entry.880133861=N.&entry.1414103043=PATI%C3%91O&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MCR%20-%20Municipal%20Civil%20Registrar's%20Office"
   },
+  /*Municipal Budget Office*/
+  "P-059": {
+    name: "MAUREEN D. CASACLANG",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (MUNICIPAL BUDGET OFFICER)",
+    department: "MBO - Municipal Budget Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-059&entry.1045781291=MAUREEN&entry.880133861=D.&entry.1414103043=CASACLANG&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%0A(MUNICIPAL%20BUDGET%20OFFICER)&entry.1320481221=MBO%20-%20Municipal%20Budget%20Office"
+  },
+  "P-060": {
+    name: "EDA HOPE D. GUMAWA",
+    position: "ADMINISTRATIVE OFFICER IV (BUDGET OFFICER II)",
+    department: "MBO - Municipal Budget Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-060&entry.1045781291=EDA%20HOPE&entry.880133861=D.&entry.1414103043=GUMAWA&entry.1166974658=ADMINISTRATIVE%20OFFICER%20IV%20(BUDGET%20OFFICER%20II)&entry.1320481221=MBO%20-%20Municipal%20Budget%20Office"
+  },
+  "C-259": {
+    name: "ANNAVELLE S. HIÑOSA",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MBO - Municipal Budget Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-259&entry.1045781291=ANNAVELLE&entry.880133861=S.&entry.1414103043=HI%C3%91OSA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MBO%20-%20Municipal%20Budget%20Office"
+  },
   "C-256": {
     name: "MARDY L. UNTALAN",
     position: "ADMINISTRATIVE AIDE IV (HUMAN RESOURCE MANAGEMENT AIDE)",
