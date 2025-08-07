@@ -494,6 +494,55 @@ const employees = {
     department: "MTO - Municipal Treasurer's Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-270&entry.1045781291=ROVELYN&entry.880133861=F.&entry.1414103043=ABAN&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
   },
+  /*Municipal Assessor's Office*/
+  "P-091": {
+    name: "ARNULFO C. SERMENO",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (MUNICIPAL ASSESSOR)",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-091&entry.1045781291=ARNULFO&entry.880133861=C.&entry.1414103043=SERMENO&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%20(MUNICIPAL%20ASSESSOR)&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
+  },
+  "P-092": {
+    name: "JUSTIN PAOLO P. SISON",
+    position: "TAX MAPPER I",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-092&entry.1045781291=JUSTIN%20PAOLO&entry.880133861=P.&entry.1414103043=SISON&entry.1166974658=TAX%20MAPPER%20I&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
+  },
+  "P-093": {
+    name: "ARTHUR F. PETATE",
+    position: "TAX MAPPING AIDE",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Fexport-ops.github.io%2Fsjdb-middleware%2F%3Femp_id%3DP-094"
+  },
+  "P-094": {
+    name: "ANNIE C. ALFUENTE",
+    position: "LOCAL ASSESSMENT OPERATIONS OFFICER III",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-094&entry.1045781291=ANNIE&entry.880133861=C.&entry.1414103043=ALFUENTE&entry.1166974658=LOCAL%20ASSESSMENT%20OPERATIONS%20OFFICER%20III&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
+  },
+  "P-095": {
+    name: "BEVERLY D. REMEGIO",
+    position: "ADMINISTRATIVE ASSISTANT I (BOOKBINDER III)",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-095&entry.1045781291=BEVERLY&entry.880133861=D.&entry.1414103043=REMEGIO&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20I%20(BOOKBINDER%20III)&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
+  },
+  "P-202": {
+    name: "RIZA B. PEROCHO",
+    position: "ASSESSMENT CLERK II",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-202&entry.1045781291=RIZA&entry.880133861=B.&entry.1414103043=PEROCHO&entry.1166974658=ASSESSMENT%20CLERK%20II&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
+  },
+  "C-260": {
+    name: "SAHREN L. MONTAÑO",
+    position: "ASSESSMENT CLERK I",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-260&entry.1045781291=SAHREN&entry.880133861=L.&entry.1414103043=MONTA%C3%91O&entry.1166974658=ASSESSMENT%20CLERK%20I&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
+  },
+  "C-261": {
+    name: "MA. LUZ D. GUANTIA",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MASSO - Municipal Assessor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-261&entry.1045781291=MA.%20LUZ&entry.880133861=D.&entry.1414103043=GUANTIA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
+  },
   "C-256": {
     name: "MARDY L. UNTALAN",
     position: "ADMINISTRATIVE AIDE IV (HUMAN RESOURCE MANAGEMENT AIDE)",
