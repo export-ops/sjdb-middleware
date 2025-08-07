@@ -337,6 +337,163 @@ const employees = {
     department: "MACCO - Municipal Accounting Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-273&entry.1045781291=JOYCE&entry.880133861=G.&entry.1414103043=VIESCA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MACCO%20-%20Municipal%20Accounting%20Office"
   },
+  /*Municipal Treasurer's Office*/
+  "P-069": {
+    name: "GENEVIEVE S. UY",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (MUNICIPAL TREASURER)",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-069&entry.1045781291=GENEVIEVE&entry.880133861=S.&entry.1414103043=UY&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%20(MUNICIPAL%20TREASURER)&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-070": {
+    name: "VICTORIA H. MADREDANO",
+    position: "LOCAL REVENUE COLLECTION OFFICER III",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-070&entry.1045781291=VICTORIA&entry.880133861=H.&entry.1414103043=MADREDANO&entry.1166974658=LOCAL%20REVENUE%20COLLECTION%20OFFICER%20III&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-071": {
+    name: "FAITH MARIE T. VICENTE",
+    position: "LOCAL TREASURY OPERATIONS OFFICER I",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-071&entry.1045781291=FAITH%20MARIE&entry.880133861=T.&entry.1414103043=VICENTE&entry.1166974658=LOCAL%20TREASURY%20OPERATIONS%20OFFICER%20I&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-072": {
+    name: "DEBBIE S. ALTARES",
+    position: "ADMINISTRATIVE OFFICER I (CASHIER I)",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-072&entry.1045781291=DEBBIE&entry.880133861=S.&entry.1414103043=ALTARES&entry.1166974658=ADMINISTRATIVE%20OFFICER%20I%20(CASHIER%20I)&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-073": {
+    name: "DELIA K. ALIAN",
+    position: "ADMINISTRATIVE ASSISTANT II (DISBURSING OFFICER I)",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-073&entry.1045781291=DELIA&entry.880133861=K.&entry.1414103043=ALIAN&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20II%20(DISBURSING%20OFFICER%20I)&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-074": {
+    name: "LJ IMEE B. DELGADO",
+    position: "LOCAL REVENUE COLLECTION OFFICER I",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-074&entry.1045781291=LJ%20IMEE&entry.880133861=B.&entry.1414103043=DELGADO&entry.1166974658=LOCAL%20REVENUE%20COLLECTION%20OFFICER%20I&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-075": {
+    name: "ARMAN S. NARANJO",
+    position: "LOCAL REVENUE COLLECTION OFFICER I",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-075&entry.1045781291=ARMAN&entry.880133861=S.&entry.1414103043=NARANJO&entry.1166974658=LOCAL%20REVENUE%20COLLECTION%20OFFICER%20I&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-076": {
+    name: "MONICA M. REBOTE",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-076&entry.1045781291=MONICA&entry.880133861=M.&entry.1414103043=REBOTE&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-077": {
+    name: "LINDA I. GENTOVA",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-077&entry.1045781291=LINDA&entry.880133861=I.&entry.1414103043=GENTOVA&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-078": {
+    name: "EDUARDO S. DE JUAN",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-078&entry.1045781291=EDUARDO&entry.880133861=S.&entry.1414103043=DE%20JUAN&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-079": {
+    name: "CLAIRE P. OROSCO",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-079&entry.1045781291=CLAIRE&entry.880133861=P.&entry.1414103043=OROSCO&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-080": {
+    name: "EVELYN C. MOLINA",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-080&entry.1045781291=EVELYN&entry.880133861=C.&entry.1414103043=MOLINA&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-081": {
+    name: "DIOSCORA D. PE",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-081&entry.1045781291=DIOSCORA&entry.880133861=D.&entry.1414103043=PE&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-082": {
+    name: "MYLENE M. LANARIO",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-082&entry.1045781291=MYLENE&entry.880133861=M.&entry.1414103043=LANARIO&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-083": {
+    name: "CHITA S. ORIEL",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-083&entry.1045781291=CHITA&entry.880133861=S.&entry.1414103043=ORIEL&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-084": {
+    name: "EMPRESS JONE E. ATALO",
+    position: "REVENUE COLLECTION CLERK I",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-084&entry.1045781291=EMPRESS%20JONE&entry.880133861=E.&entry.1414103043=ATALO&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20I&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-085": {
+    name: "MARIA ROSELIA V. CONLU",
+    position: "REVENUE COLLECTION CLERK I",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-085&entry.1045781291=MARIA%20ROSELIA&entry.880133861=V.&entry.1414103043=CONLU&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20I&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-086": {
+    name: "ZARAH ANDREA S. ALTARES",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-086&entry.1045781291=ZARAH%20ANDREA&entry.880133861=S.&entry.1414103043=ALTARES&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-087": {
+    name: "GLORIA P. JUALA",
+    position: "REVENUE COLLECTION CLERK I",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-087&entry.1045781291=GLORIA&entry.880133861=P.&entry.1414103043=JUALA&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20I&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-088": {
+    name: "MERYL ADA R. BUNGCASAN",
+    position: "DATA ENCODER",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-088&entry.1045781291=MERYL%20ADA&entry.880133861=R.&entry.1414103043=BUNGCASAN&entry.1166974658=DATA%20ENCODER&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-089": {
+    name: "EDGAR T. ECUBE",
+    position: "ADMINISTRATIVE AIDE IV (CLERK II)",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-089&entry.1045781291=EDGAR&entry.880133861=T.&entry.1414103043=ECUBE&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(CLERK%20II)&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "P-090": {
+    name: "RICKY A. CATALDAVAN",
+    position: "REVENUE COLLECTION CLERK II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-090&entry.1045781291=RICKY&entry.880133861=A.&entry.1414103043=CATALDAVAN&entry.1166974658=REVENUE%20COLLECTION%20CLERK%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "C-267": {
+    name: "FRANCIS JOHN M. MISSION",
+    position: "BILL COLLECTOR",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-267&entry.1045781291=FRANCIS%20JOHN&entry.880133861=M.&entry.1414103043=MISSION&entry.1166974658=BILL%20COLLECTOR&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "C-268": {
+    name: "REX M. MARFIL",
+    position: "DRIVER",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-268&entry.1045781291=REX&entry.880133861=M.&entry.1414103043=MARFIL&entry.1166974658=DRIVER&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "C-269": {
+    name: "NECO PHILIP F. BANDIOLA",
+    position: "ADMINISTRATIVE ASSISTANT II",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-269&entry.1045781291=NECO%20PHILIP&entry.880133861=F.&entry.1414103043=BANDIOLA&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20II&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
+  "C-270": {
+    name: "ROVELYN F. ABAN",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MTO - Municipal Treasurer's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-270&entry.1045781291=ROVELYN&entry.880133861=F.&entry.1414103043=ABAN&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MTO%20-%20Municipal%20Treasurer's%20Office"
+  },
   "C-256": {
     name: "MARDY L. UNTALAN",
     position: "ADMINISTRATIVE AIDE IV (HUMAN RESOURCE MANAGEMENT AIDE)",
