@@ -543,6 +543,25 @@ const employees = {
     department: "MASSO - Municipal Assessor's Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-261&entry.1045781291=MA.%20LUZ&entry.880133861=D.&entry.1414103043=GUANTIA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MASSO%20-%20Municipal%20Assessor's%20Office"
   },
+  /*Municipal General Services Office*/
+  "P-036": {
+    name: "DELIA ASUNCION V. JUALA",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (MUNICIPAL GENERAL SERVICES OFFICER)",
+    department: "MGSO - Municipal General Services Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-036&entry.1045781291=DELIA%20ASUNCION&entry.880133861=V.&entry.1414103043=JUALA&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%20%0A(MUNICIPAL%20GENERAL%20SERVICES%20OFFICER)&entry.1320481221=MGSO%20-%20Municipal%20General%20Services%20Office"
+  },
+  "P-037": {
+    name: "LORENZE G. GALLANO",
+    position: "ADMINISTRATIVE OFFICER I (SUPPLY OFFICER I)",
+    department: "MGSO - Municipal General Services Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-037&entry.1045781291=LORENZE&entry.880133861=G.&entry.1414103043=GALLANO&entry.1166974658=ADMINISTRATIVE%20OFFICER%20I%20(SUPPLY%20OFFICER%20I)&entry.1320481221=MGSO%20-%20Municipal%20General%20Services%20Office"
+  },
+  "P-038": {
+    name: "RODOLF JOSE D. MAZA",
+    position: "INFORMATION SYSTEMS ANALYST I",
+    department: "MGSO - Municipal General Services Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-038&entry.1045781291=RODOLF%20JOSE&entry.880133861=D.&entry.1414103043=MAZA&entry.1166974658=INFORMATION%20SYSTEMS%20ANALYST%20I&entry.1320481221=MGSO%20-%20Municipal%20General%20Services%20Office"
+  },
   "C-256": {
     name: "MARDY L. UNTALAN",
     position: "ADMINISTRATIVE AIDE IV (HUMAN RESOURCE MANAGEMENT AIDE)",
