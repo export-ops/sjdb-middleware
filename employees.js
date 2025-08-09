@@ -736,4 +736,41 @@ const employees = {
     department: "MGSO - Municipal General Services Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-288&entry.1045781291=GLICERIA&entry.880133861=H.&entry.1414103043=ANISCO&entry.1166974658=ADMINISTRATIVE%20ASSISTANT%20II%20(HUMAN%20RESOURCE%20MANAGEMENT%20ASSISTANT)&entry.1320481221=MGSO%20-%20Municipal%20General%20Services%20Office"
   },
+  /*Municipal Agriculturist's Office*/
+  "P-148": {
+    name: "MADELYN A. PAGUNSAN",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (MUNICIPAL AGRICULTURIST)",
+    department: "MAO - Municipal Agriculturist's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-148&entry.1045781291=MADELYN&entry.880133861=A.&entry.1414103043=PAGUNSAN&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%20(MUNICIPAL%20AGRICULTURIST)&entry.1320481221=MAO%20-%20Municipal%20Agriculturist's%20Office"
+  },
+  "P-149": {
+    name: "LUCIA A. BANTOLO",
+    position: "SENIOR AGRICULTURIST",
+    department: "MAO - Municipal Agriculturist's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-149&entry.1045781291=LUCIA&entry.880133861=A.&entry.1414103043=BANTOLO&entry.1166974658=SENIOR%20AGRICULTURIST&entry.1320481221=MAO%20-%20Municipal%20Agriculturist's%20Office"
+  },
+  "P-150": {
+    name: "JOHN PHILIP D. VICENTE",
+    position: "AGRICULTURAL TECHNOLOGIST",
+    department: "MAO - Municipal Agriculturist's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-150&entry.1045781291=JOHN%20PHILIP&entry.880133861=D.&entry.1414103043=VICENTE&entry.1166974658=AGRICULTURAL%20TECHNOLOGIST&entry.1320481221=MAO%20-%20Municipal%20Agriculturist's%20Office"
+  },
+  "P-151": {
+    name: "JOSEPHINE B. DELGADO",
+    position: "AGRICULTURAL TECHNOLOGIST",
+    department: "MAO - Municipal Agriculturist's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-151&entry.1045781291=JOSEPHINE&entry.880133861=B.&entry.1414103043=DELGADO&entry.1166974658=AGRICULTURAL%20TECHNOLOGIST&entry.1320481221=MAO%20-%20Municipal%20Agriculturist's%20Office"
+  },
+  "C-265": {
+    name: "GEO P. DERAMAS",
+    position: "HEAVY EQUIPMENT OPERATOR I",
+    department: "MAO - Municipal Agriculturist's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-265&entry.1045781291=GEO&entry.880133861=P.&entry.1414103043=DERAMAS&entry.1166974658=HEAVY%20EQUIPMENT%20OPERATOR%20I&entry.1320481221=MAO%20-%20Municipal%20Agriculturist's%20Office"
+  },
+  "C-265": {
+    name: "REYBENSON A. BASAÑES",
+    position: "FARM WORKER",
+    department: "MAO - Municipal Agriculturist's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-266&entry.1045781291=REYBENSON&entry.880133861=A.&entry.1414103043=BASA%C3%91ES&entry.1166974658=FARM%20WORKER&entry.1320481221=MAO%20-%20Municipal%20Agriculturist's%20Office"
+  },
 };
