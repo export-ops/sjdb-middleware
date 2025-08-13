@@ -80,6 +80,12 @@ const employees = {
     department: "MO - Mayor's Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-287&entry.1045781291=MIKO%20MA.&entry.880133861=F.&entry.1414103043=ESTARIS&entry.1166974658=INFORMATION%20TECHNOLOGY%20OFFICER%20I&entry.1320481221=MO%20-%20Mayor's%20Office"
   },
+  "C-289": {
+    name: "JOANNA G. PANALIGAN",
+    position: "PUBLIC SERVICES OFFICER III",
+    department: "MO - Mayor's Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-289&entry.1045781291=JOANNA&entry.880133861=G.&entry.1414103043=PANALIGAN&entry.1166974658=PUBLIC%20SERVICES%20OFFICER%20III&entry.1320481221=MO%20-%20Mayor's%20Office"
+  },
     /*Municipal Planning and Development Office*/
   "P-026": {
     name: "ENGR. JOSE O. MAGBANUA",
@@ -869,5 +875,155 @@ const employees = {
     position: "ADMINISTRATIVE AIDE III (UTILITY WORKER II)",
     department: "MEEDO - Municipal Economic Enterprise Development Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-187&entry.1045781291=MARK%20ANTHONY&entry.880133861=C.&entry.1414103043=DELGADO&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-188": {
+    name: "LORENCE D. LAGORDO",
+    position: "ADMINISTRATIVE AIDE III (UTILITY WORKER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-188&entry.1045781291=LORENCE&entry.880133861=D.&entry.1414103043=LAGORDO&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-189": {
+    name: "OLIVER D. GANO",
+    position: "ADMINISTRATIVE AIDE III (UTILITY WORKER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-189&entry.1045781291=OLIVER&entry.880133861=D.&entry.1414103043=GANO&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-190": {
+    name: "GOERGE S. SARAGENA",
+    position: "SLAUGHTERHOUSE MASTER I",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-190&entry.1045781291=GEORGE&entry.880133861=S.&entry.1414103043=SARAGENA&entry.1166974658=SLAUGHTERHOUSE%20MASTER%20I&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-191": {
+    name: "DIVINE HOPE S. BANTOLO",
+    position: "MEAT INSPECTOR II",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-191&entry.1045781291=DIVINE%20HOPE&entry.880133861=S.&entry.1414103043=BANTOLO&entry.1166974658=MEAT%20INSPECTOR%20II&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-192": {
+    name: "EDCEL C. BASAÑES",
+    position: "ADMINISTRATIVE AIDE III (LABORER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-192&entry.1045781291=EDCEL&entry.880133861=C.&entry.1414103043=BASA%C3%91ES&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(LABORER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-193": {
+    name: "REX BOMIN A. OBERES",
+    position: "PARKING AIDE II",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-193&entry.1045781291=REX%20BOMIN&entry.880133861=A.&entry.1414103043=OBERES&entry.1166974658=PARKING%20AIDE%20II&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-194": {
+    name: "VICENTE C. SALVANI III",
+    position: "PARKING AIDE II",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-194&entry.1045781291=VICENTE&entry.880133861=C.&entry.1414103043=SALVANI%20III&entry.1166974658=PARKING%20AIDE%20II&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-195": {
+    name: "JOHN GLOVILLE D. BUNGABONG",
+    position: "PARKING AIDE II",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-195&entry.1045781291=JOHN%20GLOVILLE&entry.880133861=D.&entry.1414103043=BUNGABONG&entry.1166974658=PARKING%20AIDE%20II&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-196": {
+    name: "CESAR E. GUANZON JR.",
+    position: "PARKING AIDE II",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-196&entry.1045781291=CESAR&entry.880133861=E.&entry.1414103043=GUANZON%20JR.&entry.1166974658=PARKING%20AIDE%20II&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-197": {
+    name: "ALEX S. SEGUISA",
+    position: "ADMINISTRATIVE AIDE III (UTILITY WORKER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-197&entry.1045781291=ALEX&entry.880133861=S.&entry.1414103043=SEGUISA&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-198": {
+    name: "RODEL A. JUMAGBAS",
+    position: "ADMINISTRATIVE AIDE III (UTILITY WORKER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-198&entry.1045781291=RODEL&entry.880133861=A.&entry.1414103043=JUMAGBAS&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-199": {
+    name: "ROSS FLORANTE V. JUALA",
+    position: "MARKET INSPECTOR II",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-199&entry.1045781291=ROSS%20FLORANTE&entry.880133861=V.&entry.1414103043=JUALA&entry.1166974658=MARKET%20INSPECTOR%20II&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-201": {
+    name: "RICARDO E. FALDAS JR.",
+    position: "ADMINISTRATIVE AIDE III (LABORER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-201&entry.1045781291=RICARDO&entry.880133861=E.&entry.1414103043=FALDAS%20JR.&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(LABORER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-209": {
+    name: "JOSEPH C. MILLARES",
+    position: "ADMINISTRATIVE AIDE VI (UTILITY FOREMAN)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-209&entry.1045781291=JOSEPH&entry.880133861=C.&entry.1414103043=MILLARES&entry.1166974658=ADMINISTRATIVE%20AIDE%20VI%20(UTILITY%20FOREMAN)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-210": {
+    name: "GARRY C. EBRO",
+    position: "ADMINISTRATIVE AIDE III (LABORER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-210&entry.1045781291=GARRY&entry.880133861=C.&entry.1414103043=EBRO&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(LABORER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-211": {
+    name: "ARMANDO V. ISRAEL",
+    position: "ADMINISTRATIVE AIDE IV (DRIVER II)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-211&entry.1045781291=ARMANDO&entry.880133861=V.&entry.1414103043=ISRAEL&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(DRIVER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "P-212": {
+    name: "JOVEN R. PETINGLAY",
+    position: "WATCHMAN I",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-212&entry.1045781291=JOVEN&entry.880133861=R.&entry.1414103043=PETINGLAY&entry.1166974658=WATCHMAN%20I&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-277": {
+    name: "ARFE MARIE M. IBALLA",
+    position: "ADMINISTRATIVE AIDE IV (CASH CLERK I)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-277&entry.1045781291=ARFE%20MARIE&entry.880133861=M.&entry.1414103043=IBALLA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(CASH%20CLERK%20I)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-278": {
+    name: "ALMIRA MAE T. CABRERA",
+    position: "ADMINISTRATIVE AIDE IV (CASH CLERK I)",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-278&entry.1045781291=ALMIRA%20MAE&entry.880133861=T.&entry.1414103043=CABRERA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV%20(CASH%20CLERK%20I)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-279": {
+    name: "PAUL ANTHONY B. MABUHAY",
+    position: "ADMINISTRATIVE AIDE III",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-279&entry.1045781291=PAUL%20ANTHONY&entry.880133861=B.&entry.1414103043=MABUHAY&entry.1166974658=ADMINISTRATIVE%20AIDE%20III&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-280": {
+    name: "FRANKY R. MOLINA",
+    position: "ADMINISTRATIVE AIDE III",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-280&entry.1045781291=FRANKY&entry.880133861=R.&entry.1414103043=MOLINA&entry.1166974658=ADMINISTRATIVE%20AIDE%20III&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-281": {
+    name: "MARY AN GRACE A. PATIÑO",
+    position: "CASH CLERK I",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-281&entry.1045781291=MARY%20AN%20GRACE&entry.880133861=A.&entry.1414103043=PATI%C3%91O&entry.1166974658=CASH%20CLERK%20I&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-282": {
+    name: "PHILIP DENNIS G. TANGHAL",
+    position: "BUILDING HELPER",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-282&entry.1045781291=PHILIP%20DENNIS&entry.880133861=G.&entry.1414103043=TANGHAL&entry.1166974658=BUILDING%20HELPER&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-283": {
+    name: "REYMEELEN L. SAMULDE",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-283&entry.1045781291=REYMEELYN&entry.880133861=L.&entry.1414103043=SAMULDE&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+  },
+  "C-284": {
+    name: "JULIAN PAOLO D. PACIFICADOR IV",
+    position: "MARKET INSPECTOR I",
+    department: "MEEDO - Municipal Economic Enterprise Development Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-284&entry.1045781291=JULIAN%20PAOLO&entry.880133861=D.&entry.1414103043=PACIFICADOR%20IV&entry.1166974658=MARKET%20INSPECTOR%20I&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
   },
 };
