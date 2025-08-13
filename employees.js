@@ -877,10 +877,10 @@ const employees = {
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-187&entry.1045781291=MARK%20ANTHONY&entry.880133861=C.&entry.1414103043=DELGADO&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
   },
   "P-188": {
-    name: "LORENCE D. LAGORDO",
+    name: "LORENCE C. LAGORDO",
     position: "ADMINISTRATIVE AIDE III (UTILITY WORKER II)",
     department: "MEEDO - Municipal Economic Enterprise Development Office",
-    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-188&entry.1045781291=LORENCE&entry.880133861=D.&entry.1414103043=LAGORDO&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-188&entry.1045781291=LORENCE&entry.880133861=C.&entry.1414103043=LAGORDO&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(UTILITY%20WORKER%20II)&entry.1320481221=MEEDO%20-%20Municipal%20Economic%20Enterprise%20Development%20Office"
   },
   "P-189": {
     name: "OLIVER D. GANO",
