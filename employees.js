@@ -1467,4 +1467,77 @@ const employees = {
     department: "MSWDO - Municipal Social Welfare and Development Office",
     form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-218&entry.1045781291=LALIE&entry.880133861=B.&entry.1414103043=DAVO&entry.1166974658=DAY%20CARE%20WORKER%20I&entry.1320481221=MSWDO%20-%20Municipal%20Social%20Welfare%20and%20Development%20Office"
   },
+  /*Municipal Disaster Risk Reduction and Management Office*/
+  "P-161": {
+    name: "ENGR. ALEX S. CRESPO",
+    position: "MUNICIPAL GOVERNMENT DEPARTMENT HEAD I (LOCAL DISASTER RISK REDUCTION AND MANAGEMENT OFFICER)",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-161&entry.1045781291=ENGR.%20ALEX&entry.880133861=S.&entry.1414103043=CRESPO&entry.1166974658=MUNICIPAL%20GOVERNMENT%20DEPARTMENT%20HEAD%20I%20(LOCAL%20DISASTER%20RISK%20REDUCTION%20AND%20MANAGEMENT%20OFFICER)%20%20%20%20%20%20%20%20%20&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-162": {
+    name: "JOSEPH A. ALACAPA",
+    position: "ADMINISTRATIVE AIDE VI (CLERK III)",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-162&entry.1045781291=JOSEPH&entry.880133861=A.&entry.1414103043=ALACAPA&entry.1166974658=ADMINISTRATIVE%20AIDE%20VI%20(CLERK%20III)&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-163": {
+    name: "MARK ALLEN V. MABUHAY",
+    position: "ADMINISTRATIVE AIDE III (DRIVER I)",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-163&entry.1045781291=MARK%20ALLEN&entry.880133861=V.&entry.1414103043=MABUHAY&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(DRIVER%20I)&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-164": {
+    name: "FE CORAZON MALAYA S. TACOGDOY",
+    position: "MUNICIPAL GOVERNMENT ASSISTANT DEPARTMENT HEAD I (LOCAL DISASTER RISK REDUCTION AND MANAGEMENT OFFICER IV)",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-164&entry.1045781291=FE%20CORAZON%20MALAYA&entry.880133861=S.&entry.1414103043=TACOGDOY&entry.1166974658=MUNICIPAL%20GOVERNMENT%20ASSISTANT%20DEPARTMENT%20HEAD%20I%20(LOCAL%20DISASTER%20RISK%20REDUCTION%20AND%20MANAGEMENT%20OFFICER%20IV)%20%20%20%20%20%20%20%20%20&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-165": {
+    name: "MA. CLEOFE A. AMEDO",
+    position: "LOCAL DISASTER RISK REDUCTION AND MANAGEMENT OFFICER II",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-165&entry.1045781291=MA.%20CLEOFE&entry.880133861=A.&entry.1414103043=AMEDO&entry.1166974658=LOCAL%20DISASTER%20RISK%20REDUCTION%20AND%20MANAGEMENT%20OFFICER%20II&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-166": {
+    name: "GODHEL S. BASAÑES",
+    position: "LIFEGUARD",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-166&entry.1045781291=GODHEL&entry.880133861=S.&entry.1414103043=BASA%C3%91ES&entry.1166974658=LIFEGUARD&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-167": {
+    name: "RAMIL A. ONANAD",
+    position: "LIFEGUARD",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-167&entry.1045781291=RAMIL&entry.880133861=A.&entry.1414103043=ONANAD&entry.1166974658=LIFEGUARD&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-168": {
+    name: "DELFIN R. ENCARNACION V",
+    position: "NURSE I",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-168&entry.1045781291=DELFIN&entry.880133861=R.&entry.1414103043=ENCARNACION%20V&entry.1166974658=NURSE%20I&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-169": {
+    name: "ROEL PAOLO P. GABRIEL",
+    position: "NURSE I",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-169&entry.1045781291=ROEL%20PAOLO&entry.880133861=P.&entry.1414103043=GABRIEL&entry.1166974658=NURSE%20I&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-170": {
+    name: "RHEY JOSE G. UMADHAY",
+    position: "ADMINISTRATIVE AIDE III (DRIVER I)",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-170&entry.1045781291=RHEY%20JOSE&entry.880133861=G.&entry.1414103043=UMADHAY&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(DRIVER%20I)&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "P-208": {
+    name: "EDWIN M. GARCIA",
+    position: "ADMINISTRATIVE AIDE III (DRIVER I)",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=P-208&entry.1045781291=EDWIN&entry.880133861=M.&entry.1414103043=GARCIA&entry.1166974658=ADMINISTRATIVE%20AIDE%20III%20(DRIVER%20I)&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
+  "C-286": {
+    name: "JERNIE VI S. GARCESA",
+    position: "ADMINISTRATIVE AIDE IV",
+    department: "MDRRMO - Municipal Disaster Risk Reduction and Management Office",
+    form_url: "https://docs.google.com/forms/d/e/1FAIpQLSdqu-Ejmtq7GNXTeEAR7WYNJlK80lAtkuSxNTdiPjkdXzSv6g/viewform?usp=pp_url&entry.2005620554=C-286&entry.1045781291=JERNIE%20VI&entry.880133861=S.&entry.1414103043=GARCESA&entry.1166974658=ADMINISTRATIVE%20AIDE%20IV&entry.1320481221=MDRRMO%20-%20Municipal%20Disaster%20Risk%20Reduction%20and%20Management%20Office"
+  },
 };
