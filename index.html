@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <title>Secure QR Middleware</title>
+
+  <!-- Load configs -->
   <script src="config.js"></script>
   <script src="employees.js"></script>
+
+  <!-- Device fingerprint library -->
+  <script src="https://openfpcdn.io/fingerprintjs/v4"></script>
+
   <style>
     body {
       margin: 0;
@@ -17,7 +23,7 @@
       align-items: center;
       height: 80vh;
     }
-  
+
     #content-wrapper {
       background: white;
       padding: 30px;
@@ -27,13 +33,13 @@
       width: 90%;
       max-width: 500px;
     }
-  
+
     img.logo {
       width: 80px;
       height: auto;
       margin-bottom: 12px;
     }
-  
+
     input[type="password"] {
       padding: 8px 12px;
       font-size: 16px;
@@ -42,7 +48,7 @@
       border-radius: 6px;
       border: 1px solid #ccc;
     }
-  
+
     button {
       background-color: #0055cc;
       color: white;
@@ -52,14 +58,9 @@
       font-size: 16px;
       cursor: pointer;
     }
-  
+
     button:hover {
       background-color: #0044aa;
-    }
-  
-    h2 {
-      margin-top: 0;
-      color: #002244;
     }
   </style>
 </head>
@@ -68,88 +69,85 @@
     <img src="municipal-logo.png" alt="LGU Logo" class="logo" />
     <h2>🏛️ Municipality of San Jose de Buenavista <br> QR Code Attendance</h2>
     <div id="content">
-      <p><em>Fetching security check...</em></p>
+      <p><em>Validating device...</em></p>
     </div>
   </div>
+
   <script>
     const urlParams = new URLSearchParams(window.location.search);
     const empId = urlParams.get("emp_id");
-  
-    // Optional: Enable IP check here
-    const useIPCheck = true; 
-  
+
     function showError(message) {
       document.getElementById("content").innerHTML = `<h3 style="color:red;">${message}</h3>`;
     }
-  
+
     function showEventCodeForm(emp) {
       const form = document.createElement("div");
-  
-      const info = document.createElement("p");
-      info.innerHTML = `<strong>Employee:</strong> ${emp.name}<br>
-                        <strong>Position:</strong> ${emp.position}<br>
-                        <strong>Department:</strong> ${emp.department}`;
-      form.appendChild(info);
-  
-      const codeInput = document.createElement("input");
-      codeInput.type = "password";
-      codeInput.placeholder = "Enter Event Code";
-      codeInput.style.marginRight = "8px";
-  
-      const button = document.createElement("button");
-      button.innerText = "Submit";
-      button.onclick = () => {
-        if (codeInput.value === allowedEventCode) {
-          window.location.href = emp.form_url;
-        } else {
-          alert("❌ Incorrect event code. Please try again.");
-        }
-      };
-  
-      form.appendChild(codeInput);
-      form.appendChild(button);
-  
+
+      form.innerHTML = `
+        <p>
+          <strong>Employee:</strong> ${emp.name}<br>
+          <strong>Position:</strong> ${emp.position}<br>
+          <strong>Department:</strong> ${emp.department}
+        </p>
+
+        <input type="password" id="ev" placeholder="Enter Event Code" />
+
+        <button onclick="verifyCode()">Submit</button>
+      `;
+
       document.getElementById("content").innerHTML = "";
       document.getElementById("content").appendChild(form);
+
+      window.verifyCode = () => {
+        const ev = document.getElementById("ev").value;
+        if (ev === allowedEventCode) {
+          window.location.href = emp.form_url;
+        } else {
+          alert("❌ Incorrect event code.");
+        }
+      };
     }
-  
-    function initMiddleware(userIP = null) {
-      // 🔍 Debug logs
-      console.log("Your IP:", userIP);
-      console.log("Allowed IPs:", allowedIPs);
 
-      fetch("https://api.ipify.org?format=json")
-        .then(response => response.json())
-        .then(data => {
-          console.log("Your Public IP is:", data.ip);
-        });
+    async function getFingerprint() {
+      const fp = await FingerprintJS.load();
+      const result = await fp.get();
+      return result.visitorId;
+    }
 
-
-      // ✅ Check if employee ID is valid
+    async function initApp() {
+      // Validate employee first
       if (!empId || !employees[empId]) {
         showError("Invalid or missing employee ID.");
         return;
       }
 
-      // 🔐 IP Check (if enabled)
-      if (useIPCheck && userIP && !allowedIPs.includes(userIP)) {
-        showError("Unauthorized device. Access denied.");
+      // Generate device fingerprint
+      const fingerprint = await getFingerprint();
+      console.log("Device Fingerprint:", fingerprint);
+
+      // First time: show fingerprint to get authorized codes
+      if (allowedFingerprints.length === 0) {
+        document.getElementById("content").innerHTML = `
+          <h3>📱 Device Fingerprint</h3>
+          <p>Copy this fingerprint and add it to <strong>config.js</strong>:</p>
+          <textarea style="width:100%;height:80px;">${fingerprint}</textarea>
+        `;
         return;
       }
 
-      // ✅ Show event code form
+      // Check if device is authorized
+      if (!allowedFingerprints.includes(fingerprint)) {
+        showError("⛔ Unauthorized device. This phone is NOT allowed to scan QR codes.");
+        return;
+      }
+
+      // If device is authorized, show event form
       const emp = employees[empId];
       showEventCodeForm(emp);
     }
-  
-    if (useIPCheck) {
-      fetch("https://api.ipify.org?format=json")
-        .then(response => response.json())
-        .then(data => initMiddleware(data.ip))
-        .catch(() => showError("Failed to validate IP address."));
-    } else {
-      initMiddleware(); // Skip IP check
-    }
+
+    initApp();
   </script>
 </body>
 </html>
