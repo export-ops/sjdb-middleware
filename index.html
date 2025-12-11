@@ -4,12 +4,9 @@
   <meta charset="UTF-8" />
   <title>Secure QR Middleware</title>
 
-  <!-- Load configs -->
+  <!-- Your config + employee list -->
   <script src="config.js"></script>
   <script src="employees.js"></script>
-
-  <!-- Device fingerprint library -->
-  <script src="https://openfpcdn.io/fingerprintjs/v4"></script>
 
   <style>
     body {
@@ -62,92 +59,119 @@
     button:hover {
       background-color: #0044aa;
     }
+
+    h2 {
+      margin-top: 0;
+      color: #002244;
+    }
   </style>
 </head>
+
 <body>
   <div id="content-wrapper">
     <img src="municipal-logo.png" alt="LGU Logo" class="logo" />
     <h2>🏛️ Municipality of San Jose de Buenavista <br> QR Code Attendance</h2>
+
     <div id="content">
       <p><em>Validating device...</em></p>
     </div>
   </div>
 
   <script>
+    // READ employee ID from URL
     const urlParams = new URLSearchParams(window.location.search);
     const empId = urlParams.get("emp_id");
 
-    function showError(message) {
-      document.getElementById("content").innerHTML = `<h3 style="color:red;">${message}</h3>`;
+    // 🔐 Generate fingerprint (same as your fingerprint.html)
+    function generateFingerprint() {
+      let components = [
+        navigator.userAgent,
+        navigator.language,
+        screen.width + "x" + screen.height,
+        screen.colorDepth,
+        navigator.hardwareConcurrency,
+        navigator.deviceMemory || "no-mem-info",
+        Intl.DateTimeFormat().resolvedOptions().timeZone,
+        new Date().getTimezoneOffset(),
+        window.innerWidth + "x" + window.innerHeight
+      ];
+
+      let raw = components.join(" | ");
+      let hash = 0;
+
+      for (let i = 0; i < raw.length; i++) {
+        hash = ((hash << 5) - hash) + raw.charCodeAt(i);
+        hash = hash & hash;
+      }
+
+      return "FP-" + Math.abs(hash);
     }
+
+
+    function showError(message) {
+      document.getElementById("content").innerHTML =
+        `<h3 style="color:red;">${message}</h3>`;
+    }
+
 
     function showEventCodeForm(emp) {
       const form = document.createElement("div");
 
-      form.innerHTML = `
-        <p>
-          <strong>Employee:</strong> ${emp.name}<br>
-          <strong>Position:</strong> ${emp.position}<br>
-          <strong>Department:</strong> ${emp.department}
-        </p>
+      const info = document.createElement("p");
+      info.innerHTML =
+        `<strong>Employee:</strong> ${emp.name}<br>
+         <strong>Position:</strong> ${emp.position}<br>
+         <strong>Department:</strong> ${emp.department}`;
+      form.appendChild(info);
 
-        <input type="password" id="ev" placeholder="Enter Event Code" />
+      const codeInput = document.createElement("input");
+      codeInput.type = "password";
+      codeInput.placeholder = "Enter Event Code";
+      codeInput.style.marginRight = "8px";
 
-        <button onclick="verifyCode()">Submit</button>
-      `;
+      const btn = document.createElement("button");
+      btn.innerText = "Submit";
 
-      document.getElementById("content").innerHTML = "";
-      document.getElementById("content").appendChild(form);
-
-      window.verifyCode = () => {
-        const ev = document.getElementById("ev").value;
-        if (ev === allowedEventCode) {
+      btn.onclick = () => {
+        if (codeInput.value === allowedEventCode) {
           window.location.href = emp.form_url;
         } else {
           alert("❌ Incorrect event code.");
         }
       };
+
+      form.appendChild(codeInput);
+      form.appendChild(btn);
+
+      document.getElementById("content").innerHTML = "";
+      document.getElementById("content").appendChild(form);
     }
 
-    async function getFingerprint() {
-      const fp = await FingerprintJS.load();
-      const result = await fp.get();
-      return result.visitorId;
-    }
 
-    async function initApp() {
-      // Validate employee first
+    // MAIN CHECK
+    function initMiddleware() {
+      const deviceFP = generateFingerprint();
+      console.log("DEVICE FP:", deviceFP);
+      console.log("ALLOWED:", allowedFingerprints);
+
+      // Employee validation
       if (!empId || !employees[empId]) {
         showError("Invalid or missing employee ID.");
         return;
       }
 
-      // Generate device fingerprint
-      const fingerprint = await getFingerprint();
-      console.log("Device Fingerprint:", fingerprint);
-
-      // First time: show fingerprint to get authorized codes
-      if (allowedFingerprints.length === 0) {
-        document.getElementById("content").innerHTML = `
-          <h3>📱 Device Fingerprint</h3>
-          <p>Copy this fingerprint and add it to <strong>config.js</strong>:</p>
-          <textarea style="width:100%;height:80px;">${fingerprint}</textarea>
-        `;
+      // Device fingerprint validation
+      if (!allowedFingerprints.includes(deviceFP)) {
+        showError("❌ This device is not authorized.");
         return;
       }
 
-      // Check if device is authorized
-      if (!allowedFingerprints.includes(fingerprint)) {
-        showError("⛔ Unauthorized device. This phone is NOT allowed to scan QR codes.");
-        return;
-      }
-
-      // If device is authorized, show event form
-      const emp = employees[empId];
-      showEventCodeForm(emp);
+      // Show event code form
+      showEventCodeForm(employees[empId]);
     }
 
-    initApp();
+    initMiddleware();
   </script>
+
 </body>
 </html>
