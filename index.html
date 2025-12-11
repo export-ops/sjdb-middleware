@@ -133,7 +133,7 @@
 
       // 🔐 IP Check (if enabled)
       if (useIPCheck && userIP && !allowedIPs.includes(userIP)) {
-        showError("Unauthorized device.");
+        showError("Unauthorized device. Access denied.");
         return;
       }
 
